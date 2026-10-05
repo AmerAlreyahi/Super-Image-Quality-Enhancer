@@ -62,6 +62,7 @@ User-facing changes to SIQE Studio. The format follows [Keep a Changelog](https:
 
 ### Changed
 
+- The app shows the SIQE crystal logo at the top left and on the sign-in screen.
 - Big AVIF exports are about three times faster (an 8K image: 18 seconds instead of 52), for files about 15% larger. Exports with a target size on large images are quicker too.
 - The free disk space SIQE Studio keeps in reserve is capped at 20 GB, so large drives aren't held back, and the "not enough disk" message explains the reserve.
 - The app's first load is about a quarter smaller.

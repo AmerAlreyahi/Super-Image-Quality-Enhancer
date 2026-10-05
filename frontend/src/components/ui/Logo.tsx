@@ -1,14 +1,15 @@
-/** The SIQE crystal: cyan lattice, gold core, gold spark. */
+import siqeLogo from "@/assets/siqe-logo.webp";
+
+/** The SIQE crystal (docs/brand/siqe-logo.png, trimmed and scaled to 128 px for sharp small sizes). */
 export function Logo({ className = "size-7" }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 32 32" aria-hidden="true">
-      <g fill="none" stroke="var(--cyan)" strokeWidth="1.5" strokeLinejoin="round">
-        <path d="M16 3l11 6.4v13.2L16 29 5 22.6V9.4z" />
-        <path d="M16 3v26M5 9.4l22 13.2M27 9.4L5 22.6" opacity=".45" />
-      </g>
-      <path d="M16 11l4.5 2.6v5.2L16 21.4l-4.5-2.6v-5.2z" fill="var(--gold)" />
-      <circle cx="25.5" cy="6.5" r="2" fill="var(--gold)" />
-    </svg>
+    <img
+      src={siqeLogo}
+      alt=""
+      aria-hidden="true"
+      className={`${className} object-contain`}
+      draggable={false}
+    />
   );
 }
 

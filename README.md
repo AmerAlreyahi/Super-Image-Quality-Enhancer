@@ -273,7 +273,7 @@ The interactive product plan, with UI mockups of every workspace, is in [docs/pl
 
 SIQE Studio grows out of **Super Image Quality Enhancer**, a research project on super-resolution with Residual Dense Blocks working on the luminance (Y) channel. Read the paper, *Resolution Revolution: Unleashing AI for Superior Image Quality*, in [docs/research/](docs/research/resolution-revolution.pdf). The trained model is back as **SIQE Classic** in the AI Lab: the original Keras weights, ported to PyTorch and checked layer for layer.
 
-**Authors:** Amer Zuher ALriahy and Hisham Maher Sunjaq.
+**SIQE Studio** is by Amer Zuher ALriahy. The original Super Image Quality Enhancer model and its architecture were created by Amer Zuher ALriahy and Hisham Maher Sunjaq (co-author).
 
 Built with FastAPI, Temporal, PostgreSQL and pgvector, libvips, PyTorch, React, Vite, TanStack, React Flow and Caddy. Watermark text uses DejaVu Sans Bold (Bitstream Vera license, bundled in `backend/src/siqe/flows/fonts/`). AI models (each shown with its license in the app; all allow commercial use): [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) (BSD-3-Clause), [SwinIR](https://github.com/JingyunLiang/SwinIR) (Apache-2.0), [SCUNet](https://github.com/cszn/SCUNet) (Apache-2.0), [ISNet/DIS](https://github.com/xuebinqin/DIS) (Apache-2.0), [GFPGAN](https://github.com/TencentARC/GFPGAN) (Apache-2.0) and the RetinaFace detector from [facexlib](https://github.com/xinntao/facexlib) (MIT), loaded through [spandrel](https://github.com/chaiNNer-org/spandrel) (MIT); [LaMa](https://github.com/advimman/lama) (Apache-2.0) and [NAFNet](https://github.com/megvii-research/NAFNet) (MIT) as ONNX files from the [OpenCV Zoo](https://github.com/opencv/opencv_zoo); the [SIGGRAPH 2017 colorizer](https://github.com/richzhang/colorization) (BSD-2-Clause); and [OpenCLIP](https://github.com/mlfoundations/open_clip) ViT-B/32 trained on LAION-400M (MIT) for Library search.
 
@@ -281,4 +281,4 @@ The images in `samples/` were collected from the web for testing and have unknow
 
 ## License
 
-[MIT](LICENSE) © 2026 Amer Zuher ALriahy, Hisham Maher Sunjaq
+[MIT](LICENSE)
